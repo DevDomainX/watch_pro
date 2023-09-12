@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 #created by : Hans saldias
 import os as kay
+from colorama import init, Fore, Style
+init()
 from time import sleep as xpa
 
 def python():
@@ -25,7 +27,7 @@ def exel():
 
 if __name__ == '__main__':
     kay.system("clear")
-    title = """
+    title = Fore.YELLOW+Style.BRIGHT+"""
     =========================================================
     ||         Created by: 1LugarParaProgramar              ||
     ||                                                      ||
